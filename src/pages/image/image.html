@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>EXCITED</ion-title> 
+  </ion-navbar> 
+</ion-header>
+
+
+<ion-content >
+  <div>
+    <img src="../assets/images/images.jpeg" class="cover" />
+    <ion-grid class="main-grid">
+      <ion-row>
+        <ion-col width-20>
+          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
+        </ion-col>
+        <ion-col width-20>
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col>
+        <ion-col >
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col>
+        <!--<ion-col >
+          <ion-item> 
+            <ion-avatar item-left>
+              <img src="../assets/images/pp.jpeg">
+            </ion-avatar>
+            <h2>Slimer</h2>
+          </ion-item> 
+        </ion-col>-->
+        <ion-col width-33>
+          <ion-grid class="avatar-grid"> 
+            <ion-row>
+              <ion-col width-33>
+                <img src="../assets/images/pp.jpeg" class="avatar" (click)="goToUserProfile()">
+              </ion-col>
+              <ion-col > 
+                <div>Joel</div>
+              </ion-col>
+            </ion-row>
+
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+ 
+  <div class="info" padding>
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="../assets/images/images.jpeg">
+      </ion-thumbnail>
+      <h5>Esta usando:</h5>
+      <h1 class="product-name">Andrew Christian Boxer</h1>
+      <div>
+        <span>$599</span>
+      </div>
+      <button ion-button outline>View</button>
+      <button ion-button clear>Anadir Wishlist</button>
+    </ion-item>
+  </div> 
+  <span padding>Otras imagenes que te Pueden gustar:</span>
+  
+
+</ion-content>

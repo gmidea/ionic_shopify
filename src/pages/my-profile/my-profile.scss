@@ -1,0 +1,48 @@
+page-my-profile {
+  .user-info{  
+    background: #f5f5f5;
+
+    .user-info-item { 
+      border-bottom: 1px solid #dedede;
+
+      img{
+        width: 50px !important;
+        height: 50px !important;
+      }
+      .item-inner{
+        border-bottom: none !important;
+      }
+    }
+    
+  } 
+  .contacts-ion-item{
+    background: #fcfff2;
+  }
+  ion-slides{
+    height: 10% !important;
+    margin-top:5px !important; 
+
+    ion-slide{
+      width: 50px !important;
+      margin-right: 10px;
+      
+      img{
+        width: 50px !important;
+        height: 50px !important;
+      }
+
+
+      .contact-name{
+        margin-top:5px;
+        font-size: small;
+        font-weight: 100;
+      }
+
+    }
+    .swiper-pagination{ 
+      display: none;
+    }
+
+  }
+
+}

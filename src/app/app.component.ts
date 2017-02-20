@@ -4,13 +4,19 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
+import { HomePage } from '../pages/home/home';
+import { ImagePage } from '../pages/image/image';
+import { UserProfilePage } from '../pages/user-profile/user-profile';
+import { MyProfilePage } from '../pages/my-profile/my-profile';
+import { MessagePage } from '../pages/message/message';
+import { StorePage } from '../pages/store/store';
 
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage = LoginPage;
+  rootPage = StorePage;
 
   constructor(platform: Platform) {
     platform.ready().then(() => {

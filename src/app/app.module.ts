@@ -6,6 +6,11 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
+import { ImagePage } from '../pages/image/image';
+import { UserProfilePage } from '../pages/user-profile/user-profile';
+import { MyProfilePage } from '../pages/my-profile/my-profile';
+import { MessagePage } from '../pages/message/message';
+import { StorePage } from '../pages/store/store';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    ImagePage,
+    UserProfilePage,
+    MyProfilePage,
+    MessagePage,
+    StorePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -26,7 +36,12 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    ImagePage,
+    UserProfilePage,
+    MyProfilePage,
+    MessagePage,
+    StorePage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

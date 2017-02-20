@@ -21273,8 +21273,89 @@ sub {
   }
 }
 
+ion-title {
+  text-align: center;
+  color: white !important;
+}
+
+.toolbar-background-md {
+  /* border-color: #b2b2b2; */
+  background: black;
+}
+
+.toolbar-title-md {
+  color: white !important;
+}
+
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+  color: white !important;
+}
+
+page-home .card-content-md {
+  padding: 0 !important;
+}
+
+page-home .avatar-grid {
+  height: 0px;
+  margin-top: -10px;
+}
+
+page-home .avatar-grid .avatar {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+}
+
+page-image .cover {
+  width: 100%;
+  height: 200px;
+}
+
+page-image .avatar-grid {
+  height: 0px;
+  margin-top: -10px;
+}
+
+page-image .avatar-grid .avatar {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+}
+
+page-image .label-md {
+  margin: 0 !important;
+}
+
+page-image .main-grid {
+  background: #ededed;
+  border-top: 1px solid black;
+}
+
+page-image .info {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+page-image .info .product-name {
+  width: 100%;
+  overflow: auto;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+page-image .info .item-inner {
+  border-bottom: none !important;
+}
+
 page-login .login {
   background: black;
+  color: white;
 }
 
 page-login .login ion-item {
@@ -21283,4 +21364,101 @@ page-login .login ion-item {
 
 page-login .login .enter-btn {
   background: #5b00ff;
+}
+
+page-my-profile .user-info {
+  background: #f5f5f5;
+}
+
+page-my-profile .user-info .user-info-item {
+  border-bottom: 1px solid #dedede;
+}
+
+page-my-profile .user-info .user-info-item img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+page-my-profile .user-info .user-info-item .item-inner {
+  border-bottom: none !important;
+}
+
+page-my-profile .contacts-ion-item {
+  background: #fcfff2;
+}
+
+page-my-profile ion-slides {
+  height: 10% !important;
+  margin-top: 5px !important;
+}
+
+page-my-profile ion-slides ion-slide {
+  width: 50px !important;
+  margin-right: 10px;
+}
+
+page-my-profile ion-slides ion-slide img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+page-my-profile ion-slides ion-slide .contact-name {
+  margin-top: 5px;
+  font-size: small;
+  font-weight: 100;
+}
+
+page-my-profile ion-slides .swiper-pagination {
+  display: none;
+}
+
+page-store .main {
+  background: #f4f4f4;
+}
+
+page-store .main .list-div {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+page-store .main .list-div .item-md {
+  background: transparent;
+}
+
+page-store .main .list-div .item-md .item-inner {
+  border: none !important;
+}
+
+page-store .main .top-list-div {
+  border: 1px solid #dedede;
+  background: white;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+page-store .main .top-list-div .product-name {
+  width: 100%;
+  overflow: auto;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+  font-size: larger;
+  font-weight: 600;
+}
+
+page-store .main .top-list-div img {
+  height: 120px !important;
+}
+
+page-store .main .top-list-div .item-md {
+  background: transparent;
+}
+
+page-store .main .top-list-div .item-md .item-inner {
+  border: none !important;
 }

@@ -1,3 +1,15 @@
 page-home {
+  .card-content-md {
+    padding:0 !important;
+  } 
+  .avatar-grid{ 
+    height: 0px;
+    margin-top: -10px;
 
+    .avatar{
+      width: 20px !important;
+      height: 20px !important; 
+      border-radius: 50%; 
+    }
+  }
 }

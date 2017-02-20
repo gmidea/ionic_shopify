@@ -14,3 +14,30 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+ion-title{
+  text-align: center;
+  color: white !important;
+}
+.toolbar-background-md {
+    /* border-color: #b2b2b2; */
+    background: black;
+}
+.toolbar-title-md{
+    color: white !important;
+}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{ 
+    color: white !important;
+}
+// #tab-t0-2{
+//   background: #5e00ff;
+//   margin-top: -10px;
+//   height: 66px;
+//   color: white !important;
+//   border-radius: 50%;
+
+//   .tabs-md .tab-button-icon{
+//     font-size: 3.4rem;
+//     color: white !important;
+//   }
+
+// }

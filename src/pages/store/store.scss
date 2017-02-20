@@ -1,0 +1,55 @@
+page-store {
+  .main{ 
+    background: #f4f4f4;
+
+    .list-div{
+      border : 1px solid #dedede;
+      border-radius: 8px;
+      margin-top:10px;
+
+      .item-md{ 
+        background: transparent;
+
+        .item-inner{ 
+          border : none !important;
+        }
+
+      }  
+    }
+
+    .top-list-div{
+      border : 1px solid #dedede;
+      background: white;
+      border-radius: 12px;
+      margin-top:10px;
+
+      .product-name{
+        width: 100%; //  / set to whatever width you need /
+        overflow: auto;
+        white-space: -moz-pre-wrap; // Mozilla //
+        white-space: -hp-pre-wrap; // HP printers /
+        white-space: -o-pre-wrap; // Opera 7 /
+        white-space: -pre-wrap; // Opera 4-6 /
+        white-space: pre-wrap; // CSS 2.1 /
+        white-space: pre-line; // CSS 3 (and 2.1 as well, actually) /
+        word-wrap: break-word; // IE /
+        font-size: larger;
+        font-weight: 600;
+      }
+      img{
+        height: 120px !important;
+      }
+
+      .item-md{   
+
+        background: transparent;
+
+        .item-inner{ 
+          border : none !important;
+        }
+
+      }  
+    }
+  }
+
+}

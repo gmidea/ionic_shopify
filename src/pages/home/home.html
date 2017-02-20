@@ -1,17 +1,89 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <ion-title>EXCITED</ion-title>
+    <!--<ion-buttons end>
+    <ion-icon ios="ios-switch" md="md-switch"></ion-icon>
+    </ion-buttons>-->
+  </ion-navbar> 
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+
+  <ion-card>
+    <img src="../assets/images/images.jpeg" (click)="goToImage()"/>
+    <ion-card-content>
+      <ion-grid class="main-grid">
+      <ion-row>
+        <ion-col width-20>
+          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
+        </ion-col>
+        <ion-col width-20>
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col>
+        <ion-col >
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col>
+        <!--<ion-col >
+          <ion-item> 
+            <ion-avatar item-left>
+              <img src="../assets/images/pp.jpeg">
+            </ion-avatar>
+            <h2>Slimer</h2>
+          </ion-item> 
+        </ion-col>-->
+        <ion-col width-33>
+          <ion-grid class="avatar-grid"> 
+            <ion-row>
+              <ion-col width-33>
+                <img src="../assets/images/pp.jpeg" class="avatar" (click)="goToUserProfile()">
+              </ion-col>
+              <ion-col > 
+                <div>Joel</div>
+              </ion-col>
+            </ion-row>
+
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+      
+    </ion-card-content>  
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>
+    <ion-card-content>
+      <ion-grid>
+      <ion-row>
+        <ion-col width-20>
+          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
+        </ion-col>
+        <ion-col width-20>
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col>
+        <ion-col >
+            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
+        </ion-col> 
+        <ion-col width-33>
+          <ion-grid class="avatar-grid"> 
+            <ion-row>
+              <ion-col width-33>
+                <img src="../assets/images/pp.jpeg" class="avatar">
+              </ion-col>
+              <ion-col > 
+                <div>Joel</div>
+              </ion-col>
+            </ion-row>
+
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    
+      
+    </ion-card-content>  
+  </ion-card>  
+
+   
 </ion-content>
