@@ -6,30 +6,75 @@
 
 
 <ion-content>
-  <div class="user-info">
-    <ion-item class="user-info-item">
-      <ion-avatar item-left>
-        <img src="../assets/images/pp.jpeg">
-      </ion-avatar>
-      <h1>Nick</h1>
-      <h3>Ranking: 90 Chile</h3>
-      <div>
-        <span>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </span>
-        <span>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </span>
-        <span>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </span>
-        <span>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </span>
-      </div>
+  <div>
+    <ion-item class="user-info-item"> 
+      <ion-item class="user-info">
+        <ion-avatar item-left>
+          <img class="user-profile" src="../assets/images/pp.jpeg">
+        </ion-avatar>
+        <span class="user-name">Nick</span>
+        <span><img class="like" src="../assets/images/check.png"/></span> 
+        <h3>Ranking: 90 Chile</h3>
+        <ion-grid class="main-grid">
+          <ion-row>
 
-      <!--<button ion-button outline item-right>Follow</button>-->
+            <ion-col width-25>
+              <ion-grid> 
+                <ion-row>
+                  <ion-col >
+                    <img class="like" src="../assets/images/devil.png"/>
+                  </ion-col>
+                  <ion-col width-50> 
+                    <div>10</div>
+                  </ion-col>
+                </ion-row> 
+              </ion-grid>
+            </ion-col>
+
+            <ion-col width-25>
+              <ion-grid> 
+                <ion-row>
+                  <ion-col >
+                    <img class="like" src="../assets/images/tomato.png"/>
+                  </ion-col>
+                  <ion-col width-50> 
+                    <div>10</div>
+                  </ion-col>
+                </ion-row> 
+              </ion-grid> 
+            </ion-col>
+
+            <ion-col width-25>
+              <ion-grid> 
+                <ion-row>
+                  <ion-col >
+                    <img class="like" src="../assets/images/eggplant.png"/>
+                  </ion-col>
+                  <ion-col width-50> 
+                    <div>10</div>
+                  </ion-col>
+                </ion-row> 
+              </ion-grid>  
+            </ion-col> 
+            
+            <ion-col width-25>
+              <ion-grid> 
+                <ion-row>
+                  <ion-col >
+                    <img class="like" src="../assets/images/fire.png"/>
+                  </ion-col>
+                  <ion-col width-50> 
+                    <div>10</div>
+                  </ion-col>
+                </ion-row> 
+              </ion-grid>  
+            </ion-col>
+
+          </ion-row>
+        </ion-grid> 
+      </ion-item>  
     </ion-item>
+
     <ion-item class="contacts-ion-item">
       <h2>Le has gustado a:</h2> 
 
@@ -115,18 +160,22 @@
       </ion-slides>
 
     </ion-item>
+
     <ion-item>
       Urtimas compras
       <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>
     </ion-item>
+
     <ion-item>
       Wishlist
       <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>
     </ion-item>
+
     <ion-item>
       Tus imagenes
       <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>
     </ion-item>
+
     <ion-item>
       Comparte la App
       <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" item-right></ion-icon>

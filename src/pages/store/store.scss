@@ -1,5 +1,16 @@
 page-store {
   .main{ 
+    .menu-grid{
+      font-weight: small;
+      text-align: center;
+      margin-left: -12px;
+
+      .active{
+        font-weight: 300;
+        border-bottom: 1px solid #5e00ff;
+      }
+    }
+
     background: #f4f4f4;
 
     .list-div{
@@ -39,6 +50,15 @@ page-store {
       img{
         height: 120px !important;
       }
+      .price-div{
+        margin-top: 5px;
+        
+        .fire{
+          height: 16px !important;
+          width: 13px !important;
+        }
+      }
+      
 
       .item-md{   
 

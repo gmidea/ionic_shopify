@@ -16,7 +16,7 @@ import { StorePage } from '../pages/store/store';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage = UserProfilePage;
+  rootPage = LoginPage;
 
   constructor(platform: Platform) {
     platform.ready().then(() => {

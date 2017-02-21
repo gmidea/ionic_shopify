@@ -21424,21 +21424,27 @@ page-login .login .facebook-btn {
   background: #4b3a9b;
 }
 
-page-my-profile .user-info {
-  background: #f5f5f5;
-}
-
-page-my-profile .user-info .user-info-item {
-  border-bottom: 1px solid #dedede;
-}
-
-page-my-profile .user-info .user-info-item img {
-  width: 50px !important;
-  height: 50px !important;
-}
-
-page-my-profile .user-info .user-info-item .item-inner {
+page-my-profile .user-info-item .user-info .item-inner {
   border-bottom: none !important;
+}
+
+page-my-profile .user-info-item .user-info .user-profile {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+page-my-profile .user-info-item .user-info .user-name {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+page-my-profile .user-info-item .user-info .main-grid .like {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+page-my-profile .user-info-item .user-info .main-grid ion-col, page-my-profile .user-info-item .user-info .main-grid .card-content-md {
+  padding: 0 !important;
 }
 
 page-my-profile .contacts-ion-item {
@@ -21472,6 +21478,17 @@ page-my-profile ion-slides .swiper-pagination {
 
 page-store .main {
   background: #f4f4f4;
+}
+
+page-store .main .menu-grid {
+  font-weight: small;
+  text-align: center;
+  margin-left: -12px;
+}
+
+page-store .main .menu-grid .active {
+  font-weight: 300;
+  border-bottom: 1px solid #5e00ff;
 }
 
 page-store .main .list-div {
@@ -21511,6 +21528,15 @@ page-store .main .top-list-div .product-name {
 
 page-store .main .top-list-div img {
   height: 120px !important;
+}
+
+page-store .main .top-list-div .price-div {
+  margin-top: 5px;
+}
+
+page-store .main .top-list-div .price-div .fire {
+  height: 16px !important;
+  width: 13px !important;
 }
 
 page-store .main .top-list-div .item-md {

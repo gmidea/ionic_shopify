@@ -1,20 +1,33 @@
 page-my-profile {
-  .user-info{  
-    background: #f5f5f5;
+.user-info-item{ 
+    .user-info{
 
-    .user-info-item { 
-      border-bottom: 1px solid #dedede;
-
-      img{
-        width: 50px !important;
-        height: 50px !important;
-      }
       .item-inner{
         border-bottom: none !important;
+      } 
+      .user-profile{
+        width: 60px !important;
+        height: 60px !important;
       }
-    }
-    
-  } 
+      .user-name{
+        font-size: x-large;
+        font-weight: 600;
+      }
+      .main-grid{  
+        .like{
+          width: 18px !important;
+          height: 18px !important;
+
+        }
+        ion-col , .card-content-md{
+          padding:0 !important;
+        }
+      }
+
+    } 
+  }
+  
+  
   .contacts-ion-item{
     background: #fcfff2;
   }
@@ -25,7 +38,7 @@ page-my-profile {
     ion-slide{
       width: 50px !important;
       margin-right: 10px;
-      
+
       img{
         width: 50px !important;
         height: 50px !important;
