@@ -1,0 +1,107 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        <img src="../assets/images/logo.jpg"/>
+    </ion-title> 
+    <ion-buttons right>
+      <button ion-button icon-only>
+        <img src="../assets/images/menu.png"/>
+      </button>
+    </ion-buttons>
+  </ion-navbar> 
+</ion-header>
+
+
+<ion-content class="container" padding>
+  <div class="selected-item">
+    <ion-grid >
+      <ion-row>
+        <ion-col width-20> 
+          <img src="../assets/images/store1.jpeg">
+        </ion-col>
+        <ion-col width-50> 
+          <div class="price-div"> 
+            <span class="price">$599</span>
+            <span><img src="../assets/images/fire.png" class="fire"></span>
+            <span>3</span>
+          </div>  
+          <br> 
+          <div class="product-name">
+              Andrew Christian Boxer Black 
+          </div> 
+          <!--<h2>Andrew Christian Boxer Black</h2>-->
+        </ion-col>
+        <ion-col width-10></ion-col>
+        <ion-col> 
+          <ion-icon ios="ios-trash" md="md-trash"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+
+  </div>
+
+  <div class="selected-item">
+    <ion-grid >
+      <ion-row>
+        <ion-col width-20> 
+          <img src="../assets/images/store1.jpeg">
+        </ion-col>
+        <ion-col width-50> 
+          <div class="price-div"> 
+            <span class="price">$599</span>
+            <span><img src="../assets/images/fire.png" class="fire"></span>
+            <span>3</span>
+          </div>  
+          <br> 
+          <div class="product-name">
+              Andrew Christian Boxer Black 
+          </div> 
+          <!--<h2>Andrew Christian Boxer Black</h2>-->
+        </ion-col>
+        <ion-col width-10></ion-col>
+        <ion-col> 
+          <ion-icon ios="ios-trash" md="md-trash"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+
+  </div>
+  
+  <div class="total-div">
+    <ion-grid >
+      <ion-row>
+        <ion-col width-50> 
+          <div>Condigo de cupon</div><br><hr>
+        </ion-col> 
+        <ion-col width-25>
+          <div>Subtotal:</div>
+          <div>Envivo:</div>
+          <div>Total:</div>
+        </ion-col>
+        <ion-col class="prices-col" width-25>  
+          <div>$1679</div>
+          <div>$167</div>
+          <div>$179</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+  <div class="button-div">
+    <button ion-button full large class="checkout-btn" (click)="gotoCheckout()">Compra por $1235</button>
+    <div>
+      Recibiras
+      <img src="../assets/images/fire.png" class="fire"/> 
+      5
+      <br>
+      <br>
+      <br>
+      <div>
+      100% pago seguro<br>
+      100% garantia de recibirlo
+    </div>
+    </div>
+
+    
+  </div>
+
+</ion-content>

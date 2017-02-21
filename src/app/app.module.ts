@@ -11,6 +11,10 @@ import { UserProfilePage } from '../pages/user-profile/user-profile';
 import { MyProfilePage } from '../pages/my-profile/my-profile';
 import { MessagePage } from '../pages/message/message';
 import { StorePage } from '../pages/store/store';
+import { CatalogPage } from '../pages/catalog/catalog';
+import { ProductPage } from '../pages/product/product';
+import { CartPage } from '../pages/cart/cart';
+import { CheckoutPage } from '../pages/checkout/checkout';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { StorePage } from '../pages/store/store';
     UserProfilePage,
     MyProfilePage,
     MessagePage,
-    StorePage
+    StorePage,
+    CatalogPage,
+    ProductPage,
+    CartPage,
+    CheckoutPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -41,7 +49,11 @@ import { StorePage } from '../pages/store/store';
     UserProfilePage,
     MyProfilePage,
     MessagePage,
-    StorePage
+    StorePage,
+    CatalogPage,
+    ProductPage,
+    CartPage,
+    CheckoutPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -1,0 +1,90 @@
+page-cart {
+  .container{ 
+    background: whitesmoke; 
+
+    .selected-item{
+      border : 1px solid #dedede;
+      border-radius: 8px;
+      margin-top:10px;
+      background: white; 
+
+      .fire{
+        width: 18px;
+        height: 19px; 
+      }
+      .price-div{
+        float : left;
+
+        span{
+          float: left;
+        }
+        .price{
+          color:#5b00ff; 
+          font-size: large;
+          margin-right: 5px;
+        }
+      }
+      .product-name{ 
+        text-align: left;
+        font-size: 17px;
+      }
+      ion-icon{ 
+        font-size: 2.2em;
+        text-align: center;
+        margin-top: 10px;
+      } 
+    } 
+    .total-div{
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 17px;
+
+      // .prices-col{
+      //   text-align: right;
+      // }
+    }
+    .button-div{
+      margin-top: 5px;
+
+      .checkout-btn{
+        background: #5b00ff;
+      }
+      div{
+        text-align: center;
+        font-size: 17px;
+        margin-top: 5px;
+        font-weight: 100;
+        .fire{
+          width: 15px;
+          height: 10px; 
+        }
+      }
+    }
+  }
+  
+  
+  // .card-content-md{
+  //   padding : 0 !important;
+  // }
+  // .label-md ,.item-md ion-thumbnail[item-left]{
+  //   margin: 0 !important;
+  // }
+  // .product-name{ 
+  //   width: 100%; //  / set to whatever width you need /
+  //   font-size: larger;
+  //   background: red;
+  //   overflow: auto;
+  //   white-space: -moz-pre-wrap; // Mozilla //
+  //   white-space: -hp-pre-wrap; // HP printers /
+  //   white-space: -o-pre-wrap; // Opera 7 /
+  //   white-space: -pre-wrap; // Opera 4-6 /
+  //   white-space: pre-wrap; // CSS 2.1 /
+  //   white-space: pre-line; // CSS 3 (and 2.1 as well, actually) /
+  //   word-wrap: break-word; // IE / 
+  // }
+  // ion-icon{ 
+  //   font-size: 2.2em;
+  // }
+  
+
+}

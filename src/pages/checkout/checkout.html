@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        <img src="../assets/images/logo.jpg"/>
+    </ion-title>  
+  </ion-navbar> 
+</ion-header>
+
+
+<ion-content class="container" padding>
+  <div>
+    <span class="labels">Dereccion de envio: </span> 
+    <ion-input type="text" value=""></ion-input>
+  </div>
+
+  <div>
+    <span class="labels">Forma de pago: </span> 
+  <ion-textarea></ion-textarea>
+  </div>
+
+   <div>
+     <ion-grid>
+      <ion-row>
+        <ion-col >
+          <span class="labels">Subtotal : </span><br>
+          <span class="labels">Envivo : </span>
+        </ion-col>
+
+        <ion-col width-20>
+          <span class="amount">$355</span><br>
+          <span class="amount">$355</span>
+        </ion-col>
+
+        <ion-col width-25>
+          <span class="labels">Total : </span>
+        </ion-col>
+        <ion-col width-25>
+          <span class="amount total">$355</span>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+     <!--<span class="labels">Subtotal : </span><span class="amount">$355</span><br>
+     <span class="labels">Envivo : </span><span class="amount">$355</span>
+     <span class="labels">Total : </span><span class="amount total">$355</span>-->
+  </div>
+
+   <div class="button-div">
+    <button ion-button full large class="checkout-btn" (click)="gotoCheckout()">Compra por $1235</button>
+    <ion-grid>
+      <ion-row>
+        <ion-col> 
+          <span class="labels">Terminos y condiciones</span> 
+        </ion-col>
+        <ion-col width-33>
+          <span class="labels right">Pricacidad </span> 
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+</ion-content>

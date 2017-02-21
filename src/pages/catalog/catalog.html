@@ -1,18 +1,173 @@
-<!--
-  Generated template for the Catalog page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
   <ion-navbar>
-    <ion-title>catalog</ion-title>
-  </ion-navbar>
-
+    <ion-title>
+        <img src="../assets/images/logo.jpg"/>
+    </ion-title> 
+    <ion-buttons right>
+      <button ion-button icon-only>
+        <img src="../assets/images/menu.png"/>
+      </button>
+    </ion-buttons>
+  </ion-navbar> 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="container" padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-50>
+        <ion-card (click)="goToCart()"> 
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>  
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card>
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  <div class="list-div">
+     <ion-item>
+      <ion-thumbnail item-left>
+        <img src="../assets/images/store1.jpeg">
+      </ion-thumbnail>
+      <h2>Andrew Christian Boxer Black</h2>
+      <p>$499</p> 
+      <ion-icon name="arrow-forward" item-right></ion-icon>
+
+    </ion-item> 
+  </div> 
+
+   <ion-grid>
+    <ion-row>
+      <ion-col width-50>
+        <ion-card> 
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>  
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card>
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-50>
+        <ion-card> 
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>  
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+
+        </ion-card>
+      </ion-col>
+      <ion-col width-50>
+        <ion-card>
+          <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>
+          <!--<div class="card-title">São Paulo</div>-->
+          <div class="card-subtitle">Andrew Christian Boxer Blow</div>
+
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col width-50 class="price-col">
+                  <span>$599</span>
+                </ion-col>
+                <ion-col width-50> 
+                  <img src="../assets/images/fire.png" class="fire"/>
+                  <img src="../assets/images/fire.png" class="fire" />
+                  <img src="../assets/images/fire.png" class="fire"/>
+                </ion-col>
+              </ion-row>
+            </ion-grid>  
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

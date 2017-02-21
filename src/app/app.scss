@@ -28,16 +28,14 @@ ion-title{
 .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{ 
     color: white !important;
 }
-// #tab-t0-2{
-//   background: #5e00ff;
-//   margin-top: -10px;
-//   height: 66px;
-//   color: white !important;
-//   border-radius: 50%;
-
-//   .tabs-md .tab-button-icon{
-//     font-size: 3.4rem;
-//     color: white !important;
-//   }
-
-// }
+#tab-t0-2{
+    background: #5e00ff;
+    border-radius: 50%;
+    height: 72px;
+    margin-top: -10px; 
+    
+    .tab-button-icon{
+        font-size:3.5rem !important;
+        color : white !important;
+    } 
+}
