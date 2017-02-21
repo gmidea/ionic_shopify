@@ -21295,15 +21295,28 @@ page-home .card-content-md {
   padding: 0 !important;
 }
 
+page-home ion-card img {
+  height: 220px !important;
+}
+
+page-home ion-col {
+  padding: 0 !important;
+}
+
 page-home .avatar-grid {
   height: 0px;
-  margin-top: -10px;
+  margin-left: 30px;
 }
 
 page-home .avatar-grid .avatar {
   width: 20px !important;
   height: 20px !important;
   border-radius: 50%;
+}
+
+page-home .like {
+  width: 18px !important;
+  height: 18px !important;
 }
 
 page-image .cover {
@@ -21313,7 +21326,7 @@ page-image .cover {
 
 page-image .avatar-grid {
   height: 0px;
-  margin-top: -10px;
+  margin-left: 30px;
 }
 
 page-image .avatar-grid .avatar {
@@ -21322,19 +21335,36 @@ page-image .avatar-grid .avatar {
   border-radius: 50%;
 }
 
-page-image .label-md {
-  margin: 0 !important;
-}
-
 page-image .main-grid {
   background: #ededed;
   border-top: 1px solid black;
+}
+
+page-image .main-grid .item-inner {
+  border-bottom: none !important;
+}
+
+page-image .main-grid .like {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+page-image ion-col {
+  padding: 0 !important;
 }
 
 page-image .info {
   border: 1px solid #dedede;
   border-radius: 8px;
   margin: 10px;
+}
+
+page-image .info .thumbnail {
+  height: 165px !important;
+}
+
+page-image .info .item-inner {
+  border: none !important;
 }
 
 page-image .info .product-name {
@@ -21349,8 +21379,8 @@ page-image .info .product-name {
   word-wrap: break-word;
 }
 
-page-image .info .item-inner {
-  border-bottom: none !important;
+page-image .footer-text {
+  text-align: center;
 }
 
 page-login .login {
@@ -21358,12 +21388,40 @@ page-login .login {
   color: white;
 }
 
+page-login .login .icon {
+  display: block;
+  margin: 0 auto;
+}
+
+page-login .login .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+page-login .login .text {
+  text-align: center;
+  margin: 20px;
+  font-size: x-large;
+}
+
+page-login .login .foot-text {
+  text-align: center;
+}
+
 page-login .login ion-item {
   background: transparent;
 }
 
+page-login .login .button-full-md {
+  text-transform: none;
+}
+
 page-login .login .enter-btn {
   background: #5b00ff;
+}
+
+page-login .login .facebook-btn {
+  background: #4b3a9b;
 }
 
 page-my-profile .user-info {
@@ -21461,4 +21519,36 @@ page-store .main .top-list-div .item-md {
 
 page-store .main .top-list-div .item-md .item-inner {
   border: none !important;
+}
+
+page-user-profile .user-profile {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+page-user-profile .user-name {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+page-user-profile .cover {
+  width: 100%;
+  height: 200px;
+}
+
+page-user-profile .item-inner {
+  border: none !important;
+}
+
+page-user-profile .main-grid .item-inner {
+  border-bottom: none !important;
+}
+
+page-user-profile .main-grid .like {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+page-user-profile ion-col, page-user-profile .card-content-md {
+  padding: 0 !important;
 }

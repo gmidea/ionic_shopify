@@ -1,3 +1,30 @@
 page-user-profile {
+  .user-profile{
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .user-name{
+    font-size: x-large;
+    font-weight: 600;
+  }
+  .cover{
+    width: 100%;
+    height: 200px;
+  } 
+  .item-inner{
+    border:none !important;
+  } 
+  .main-grid{ 
+     .item-inner{
+      border-bottom: none !important;
+    }
+    .like{
+      width: 18px !important;
+      height: 18px !important;
 
+    }
+  }
+  ion-col , .card-content-md{
+    padding:0 !important;
+  }
 }

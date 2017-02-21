@@ -1,7 +1,9 @@
  <ion-content padding class="login">
 
   <div>
-    LOGO
+    <img class="icon" src="../assets/images/icon.jpg"><br>
+    <img class="logo" src="../assets/images/logo.jpg">
+    <div class="text">iHola!<br>Bienvenido</div>
   </div> 
 
   <ion-list>
@@ -20,14 +22,14 @@
   <br>
 
   <div>
-    <button ion-button full large class="enter-btn">Entrar</button>
+    <button ion-button full large class="enter-btn" (click)="login()">Entrar</button>
   </div>
   <br>
   <br> 
 
   <div>
-    <button ion-button full large>Entrar con Facebook</button>
-    <span center>Nunca publicaremos nada en Facebook</span>
+    <button ion-button full large class="facebook-btn">Entrar con Facebook</button>
+    <div class="foot-text">Nunca publicaremos nada en Facebook</div>
   </div> 
 
 </ion-content>

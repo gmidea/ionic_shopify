@@ -5,27 +5,41 @@ page-image {
   } 
   .avatar-grid{ 
     height: 0px;
-    margin-top: -10px;
+    margin-left: 30px;
 
     .avatar{
       width: 20px !important;
       height: 20px !important; 
       border-radius: 50%; 
     }
-  }
-  
-  .label-md {
-    margin:0!important; 
-  }
+  } 
   .main-grid{
     background: #ededed; 
     border-top : 1px solid black;
+     .item-inner{
+      border-bottom: none !important;
+    }
+    .like{
+      width: 18px !important;
+      height: 18px !important;
+
+    }
   }
+  ion-col{
+    padding:0 !important;
+  }
+
 
   .info{
     border : 1px solid #dedede;
     border-radius: 8px;
     margin : 10px; 
+    .thumbnail{
+      height: 165px !important;
+    }
+    .item-inner{
+      border:none !important;
+    }
 
     .product-name{
       width: 100%; //  / set to whatever width you need /
@@ -37,12 +51,11 @@ page-image {
       white-space: pre-wrap; // CSS 2.1 /
       white-space: pre-line; // CSS 3 (and 2.1 as well, actually) /
       word-wrap: break-word; // IE /
-    }
+    } 
+  }
 
-    .item-inner{
-      border-bottom: none !important;
-    }
-
+  .footer-text{
+    text-align: center;
   }
   
 

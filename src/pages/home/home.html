@@ -1,9 +1,13 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>EXCITED</ion-title>
-    <!--<ion-buttons end>
-    <ion-icon ios="ios-switch" md="md-switch"></ion-icon>
-    </ion-buttons>-->
+    <ion-title>
+        <img src="../assets/images/logo.jpg"/>
+    </ion-title> 
+    <ion-buttons right>
+      <button ion-button icon-only>
+        <img src="../assets/images/menu.png"/>
+      </button>
+    </ion-buttons>
   </ion-navbar> 
 </ion-header>
 
@@ -13,39 +17,63 @@
     <img src="../assets/images/images.jpeg" (click)="goToImage()"/>
     <ion-card-content>
       <ion-grid class="main-grid">
-      <ion-row>
-        <ion-col width-20>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </ion-col>
-        <ion-col width-20>
-            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
-        </ion-col>
-        <ion-col >
-            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
-        </ion-col>
-        <!--<ion-col >
-          <ion-item> 
-            <ion-avatar item-left>
-              <img src="../assets/images/pp.jpeg">
-            </ion-avatar>
-            <h2>Slimer</h2>
-          </ion-item> 
-        </ion-col>-->
-        <ion-col width-33>
-          <ion-grid class="avatar-grid"> 
-            <ion-row>
-              <ion-col width-33>
-                <img src="../assets/images/pp.jpeg" class="avatar" (click)="goToUserProfile()">
-              </ion-col>
-              <ion-col > 
-                <div>Joel</div>
-              </ion-col>
-            </ion-row>
+        <ion-row>
 
-          </ion-grid>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/devil.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid>
+          </ion-col>
+
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/tomato.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid> 
+          </ion-col>
+
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/eggplant.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid>  
+          </ion-col>
+
+          
+          <ion-col>
+            <ion-grid class="avatar-grid"> 
+              <ion-row>
+                <ion-col width-33>
+                  <img src="../assets/images/pp.jpeg" class="avatar" (click)="goToUserProfile()">
+                </ion-col>
+                <ion-col > 
+                  <div>Joel</div>
+                </ion-col>
+              </ion-row>
+
+            </ion-grid>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
       
     </ion-card-content>  
   </ion-card>
@@ -53,36 +81,66 @@
   <ion-card>
     <img src="../assets/images/Men-s-trousers-2016-fashion-cotton-pants-men-stylish-collection-trousers-male-pants-whole-man-clothes.jpg"/>
     <ion-card-content>
-      <ion-grid>
-      <ion-row>
-        <ion-col width-20>
-          <ion-icon ios="ios-happy" md="md-happy"></ion-icon> 10
-        </ion-col>
-        <ion-col width-20>
-            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
-        </ion-col>
-        <ion-col >
-            <ion-icon ios="ios-sad" md="md-sad"></ion-icon> 10
-        </ion-col> 
-        <ion-col width-33>
-          <ion-grid class="avatar-grid"> 
-            <ion-row>
-              <ion-col width-33>
-                <img src="../assets/images/pp.jpeg" class="avatar">
-              </ion-col>
-              <ion-col > 
-                <div>Joel</div>
-              </ion-col>
-            </ion-row>
+      <ion-grid class="main-grid">
+        <ion-row>
 
-          </ion-grid>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/devil.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid>
+          </ion-col>
 
-    
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/tomato.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid> 
+          </ion-col>
+
+          <ion-col width-20>
+            <ion-grid> 
+              <ion-row>
+                <ion-col >
+                  <img class="like" src="../assets/images/eggplant.png"/>
+                </ion-col>
+                <ion-col width-50> 
+                  <div>10</div>
+                </ion-col>
+              </ion-row> 
+            </ion-grid>  
+          </ion-col>
+
+          
+          <ion-col>
+            <ion-grid class="avatar-grid"> 
+              <ion-row>
+                <ion-col width-33>
+                  <img src="../assets/images/pp.jpeg" class="avatar" (click)="goToUserProfile()">
+                </ion-col>
+                <ion-col > 
+                  <div>Joel</div>
+                </ion-col>
+              </ion-row>
+
+            </ion-grid>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
       
-    </ion-card-content>  
+    </ion-card-content>   
   </ion-card>  
 
    

@@ -3,12 +3,35 @@ page-login {
     background: black;
     color : white;
 
+    .icon{
+      display: block;
+      margin: 0 auto;
+    }
+    .logo{
+      display: block;
+      margin: 0 auto;
+    }
+    .text{
+      text-align: center;
+      margin: 20px;
+      font-size: x-large;
+    }
+    .foot-text{ 
+      text-align: center;
+    }
+
     ion-item{
       background: transparent;
+    }
+    .button-full-md{
+      text-transform: none;
     }
     .enter-btn{
       background:#5b00ff;
     } 
+    .facebook-btn{
+      background:#4b3a9b;
+    }
   }
 
 }
